@@ -1,0 +1,13 @@
+LineLength:
+  Max: 120
+
+MethodLength:
+  CountComments: false
+  Max: 20
+
+Metrics/AbcSize:
+  Max: 20
+
+Metrics/BlockLength:
+  Exclude:
+    - "**/*_spec.rb"
